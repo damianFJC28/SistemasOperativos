@@ -33,4 +33,3 @@ if [ "$response" -ne 200 ]; then
 else
   cat response.json | jq .
 fi
- #Exitos!!
